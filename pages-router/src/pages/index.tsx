@@ -8,7 +8,11 @@ export default function Home() {
   // Function to handle sending the email
   const handleSendEmail = async () => {
     setActivity(true);
-    await fetch("/api/send", { method: "POST" });
+
+    const data = await fetch("/api/send", { method: "POST" });
+    const res = await data.json();
+    alert(JSON.stringify(res, null, 2));
+
     setActivity(false);
   };
   return (
