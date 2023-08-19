@@ -20,15 +20,23 @@ git clone https://github.com/lordelogos/with-attachments-nextjs.git
 cd app-router
 ```
 
-### 3. Update the `from` and `to` fields from the router handler or api route
+### 3. Create a `.env` file in the selected project and add your `Resend API key`
+
+```bash
+RESEND_API_KEY=re_8m9gwsVG_6n94KaJkJ42Yj6qSeVvLq9xF
+```
+
+### 4. Update the `from` and `to` fields from the router handler or api route
+
+**Note:** The `to` must be a verified `domain` in your `resend` account. [Read more](https://resend.com/docs/dashboard/domains/introduction)
 
 - For `App-router`, update [route.ts](/app-router/src/app/api/route.ts)
 - For `Pages-router`, update [send.ts](/pages-router/src/pages/api/send.ts)
 
-### 4. Run the development server
+### 5. Run the development server
 
 ```bash
 yarn dev
 ```
 
-### 5. Open it up in your browser and click the `Send email` button
+### 6. Open it up in your browser and click the `Send email` button
