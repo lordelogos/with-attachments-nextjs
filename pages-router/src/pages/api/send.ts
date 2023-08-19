@@ -27,8 +27,7 @@ export default async function handler(
       try {
         const data = await resend.emails.send({
           from: "Paul <onboarding@resend.dev>",
-          // to: ["paulehiks@gmail.com"],
-          to: ["delivered@resend.dev"],
+          to: ["paulehiks@gmail.com"],
           subject: "Your Completed Work and Payment Invoice",
           attachments: [
             {
@@ -42,7 +41,7 @@ export default async function handler(
             },
           ],
           react: EmailTemplate({
-            customersName: "Paul Ehikhuemen",
+            customersName: "Jonni Lundy",
             company: "Paul Inc.",
           }) as React.ReactElement,
         });

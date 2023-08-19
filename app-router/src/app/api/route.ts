@@ -34,7 +34,7 @@ export async function POST() {
         },
       ],
       react: EmailTemplate({
-        customersName: "Paul Ehikhuemen",
+        customersName: "Jonni Lundy",
         company: "Paul Inc.",
       }) as React.ReactElement,
     });

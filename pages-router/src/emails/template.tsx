@@ -6,6 +6,7 @@ import {
   Section,
   Preview,
   Text,
+  Link,
 } from "@react-email/components";
 import * as React from "react";
 
@@ -33,6 +34,14 @@ export const EmailTemplate = ({
           <Text>
             If questions arise or you need assistance, donot hesitate to contact
             us. We are available to support you!
+          </Text>
+        </Section>
+        <Section>
+          <Text>
+            This is an example template that can be found{" "}
+            <Link href="https://github.com/lordelogos/with-attachments-nextjs">
+              on Github [https://github.com/lordelogos/with-attachments-nextjs]
+            </Link>
           </Text>
         </Section>
         <Section>
