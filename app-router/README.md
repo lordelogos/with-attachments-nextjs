@@ -16,6 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser.
 Click the `Send email` button to send an email.
 
 You can edit the [Email template](/app-router/src/emails/template.tsx) built using `React Email`.
+
 The email is sent using Resend from the [Route Handler](/app-router/src/app/api/route.ts).
 
 ## Learn More
