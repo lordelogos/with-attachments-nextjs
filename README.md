@@ -1,4 +1,4 @@
-# Resend with React Email
+# Resend with React Email and attachments
 
 This repo contains examples of how to send emails with Resend using React Email and NextJs.
 It contains two examples:
