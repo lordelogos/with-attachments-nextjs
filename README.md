@@ -39,4 +39,6 @@ RESEND_API_KEY=re_8m9gwsVG_6n94KaJkJ42Yj6qSeVvLq9xF
 yarn dev
 ```
 
-### 6. Open it up in your browser and click the `Send email` button
+### 6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Click the `Send email` button to send an email
