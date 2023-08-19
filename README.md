@@ -16,8 +16,11 @@ git clone https://github.com/lordelogos/with-attachments-nextjs.git
 
 ### 2. Select the example you want to view (e.g app-router)
 
+Install the dependencies
+
 ```bash
 cd app-router
+npm run dev
 ```
 
 ### 3. Create a `.env` file in the selected project and add your `Resend API key`
