@@ -6,6 +6,10 @@ It contains two examples:
 - [Using Resend with NextJS App Router](/app-router/)
 - [Using Resend with NextJS Pages Router](/pages-router/)
 
+It also contains answers to some support questions:
+
+- [Support answers](/support-questions/support-answers.md)
+
 ## How to run
 
 ### 1. Clone the repository
